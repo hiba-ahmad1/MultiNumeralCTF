@@ -36,7 +36,7 @@ The outputted values appeared to be hex values, which I ran through the decoder 
 <img src="https://i.imgur.com/xzgfS92.png" height="90%" width="90%" alt="Base64 Output"/>
 <br/>
 <br/>
-The decoded hex values then returned what appeared to be Base64 values. I then wrote a simple Python script to decode Base64 using the 'base64' module in Python. For more information the 'base64' module in Python, refer to the following link: https://docs.python.org/3/library/base64.html. 
+The decoded hex values then returned what appeared to be Base64 values. I then wrote a simple Python script to decode Base64 using the 'base64' module in Python. For more information on the 'base64' module in Python, refer to the following link: https://docs.python.org/3/library/base64.html. 
 <br/>
 <br/>
 <img src="https://i.imgur.com/meQJzvC.png" height="70%" width="70%" alt="Python Decoder"/>
@@ -45,7 +45,7 @@ The decoded hex values then returned what appeared to be Base64 values. I then w
 The script begins by importing the 'base64' module. It then uses the 'base64.b64decode()' built-in function in Python, as well as the retrieved Base64 string from the hex values to decode the string. The 'flag' variable converts the binary data into a string. The script then prints out the following result:
 <br/>
 <br/>
-<img src="https://i.imgur.com/sAAAKLI.png" height="70%" width="70%" alt="Flag"/>
+<img src="https://i.imgur.com/sAAAKLI.png" height="60%" width="60%" alt="Flag"/>
  <br/>
  <br/>
 The flag has been retrieved! 
