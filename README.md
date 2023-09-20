@@ -49,7 +49,6 @@ The script begins by importing the 'base64' module. It then uses the 'base64.b64
  <br/>
  <br/>
 The flag has been retrieved! 
-<h2>Key takeaways:</h2>
 <p align="center">
 <!--
  ```diff
